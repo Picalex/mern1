@@ -1,0 +1,141 @@
+@import '~semantic-ui-css/semantic.min.css';
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/_navbar.scss";
+@import "~bootstrap/scss/bootstrap-reboot";
+@import "~bootstrap/scss/bootstrap";
+
+select{
+  display: flex;
+}
+
+input.yellow-input {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.yellow-input + label {
+  color: #ffffff!important;
+}
+
+input.yellow-input:focus + label {
+  color: #ffeb3b!important;
+}
+
+input.yellow-input:focus {
+  border-bottom: 1px solid #ffeb3b!important;
+  box-shadow: 0 1px 0 0 #ffeb3b!important;
+}
+
+#Test{
+  background-color: rgba(151, 53, 206, 0.59);
+  padding-top: 1px;
+  margin: 0px;
+  border-radius: 30px;
+  border:2px double #0a0303;
+  opacity: 90%;
+  text-align: center;
+  width: 200px;
+  height: 55px;
+}
+#Test:hover {
+color: #b30505;
+}
+#Button-1{
+  border-radius: 10px;
+}
+#logo{
+  border-radius: 10px;
+  text-align: center;
+}
+#logo2{
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #0a0303;
+}
+body{
+    color: #9c0505;
+}
+#List1{
+  padding-left: 40%;
+  height: 100px;
+}
+#purple{
+  color: #b41fb4;
+}
+input{
+  color: #b41fb4;
+}
+
+#box-fon1{
+  opacity: 80%;
+  background-color: rgba(238, 163, 86, 0.75);
+}
+#box-fon2{
+  width: 400px;
+}
+#box-fon{
+  width: 400px;
+  height: 500px;
+  opacity: 80%;
+  background-color: #373746;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+}
+#button-2{
+  font-weight:bold;
+  background-color:#8E44AD;
+  color: #000000;
+  padding: 10px;
+  margin-left: 50px;
+  width: 300px;
+}
+
+#addrole{
+  padding-left: 90px;
+  color:#8E44AD;
+
+}
+#roleform{
+  padding-left: 90px;
+
+}
+#roletable{
+  width: 300px;
+  height: 60px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#roleadd{
+  color:#8E44AD;
+  width: 200px;
+  height: 60px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 100px;
+}
+#roleinput{
+  margin-bottom: 30px;
+  width: 300px;
+  margin-left: 50px;
+  font-weight:normal;
+}
+.left-table{
+
+}
+.table_wight{
+  width: 200px;
+  margin: auto;
+}
+.outer {
+  text-align: center;
+  border: 1px solid blue;
+}
+.inner {
+  width: 100px;
+  border: 1px solid red;
+}
+
+
